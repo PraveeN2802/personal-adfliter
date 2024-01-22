@@ -242,46 +242,6 @@
 ||youtubesave.org^
 ||youtubesaved.com^
 ||youtubex.top^
-*_ad_$media,domain=youtube.com,3p
-! @@||youtube.com/get_video_info?*timedtext_editor$xhr,1p
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com,~accounts.youtube.com,~payments.youtube.com##+js(set, playerResponse.adPlacements, undefined)
-m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
-youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
-||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xhr,domain=youtube.com
-youtubedownloader.*##+js(nowoif)
-*$script,3p,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,domain=kimcartoon.*
-zupload.me##a[href="https://www.9xyoutube.com"]
-||youtube.com/get_video$media,redirect=noopmp4-1s,domain=games2rule.com
-*$frame,denyallow=facebook.com|google.com|youtube.com,domain=foxseotools.com
-*$frame,denyallow=cloudflare.com|facebook.com|google.com|hcaptcha.com|youtube.com|jungleofferwall.com,domain=dutchycorp.*
-*$script,3p,denyallow=cloudflare.net|fastly.net|google.com|googleapis.com|gstatic.com|jwpcdn.com|jsdelivr.net|eastream.net|youtube.com|ytimg.com,domain=vidfast.co
-*$frame,denyallow=facebook.com|google.com|hcaptcha.com|youtube.com,domain=fc.lc|fc-lc.com
-viz.com##+js(set, show_youtube_preroll, false)
-||goodnewsnetwork.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagservices.com *.wp.com *.air.tv *.addthis.com *.cloudflare.com *.facebook.net *.facebook.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com *.googletagmanager.com *.instagram.com
-||youtube.com/embed/*$domain=1shortlink.com
-youtubetomp3.*##+js(nowoif)
-youtubetomp3.*##a[href="/button.php"]
-denyallow=google.com|youtube.com
-youtubemp3.us##+js(nowoif)
-||youtube.com^$domain=1link.vip
-nsfwyoutube.com##pp
-*$xhr,3p,domain=nsfwyoutube.com
-||youtubex.top^$3p
-youtubemp3donusturucu.net##+js(aeld, click, t(a))
-||m.youtube.com/*/ad.js$script
-||mp3juices.cc^$csp=default-src 'self' 'unsafe-inline' *.dropbox.com *.dropbox-dns.com *.gstatic.com *.googleapis.com .* ytpp3.com *.youtube.com
-ytsubme.com##+js(nowoif, youtube)
-||gospeljingle.com^$csp=default-src 'unsafe-inline' 'self' data: *.ytimg.com *.facebook.com *.google.com *.gstatic.com *.youtube.com *.googleapis.com *.wp.com *.gospeljingle.com *.googletagmanager.com
-||ads.youtube.com/|$xhr,3p,redirect-rule=noop.txt
-||youtube.com/embed/$frame,domain=bestcash2020.com
-ssyoutube.com##+js(nowoif)
 ||ads.youtube.com^
 ||androidyoutubetomp3.com^
 ||autodiscover.withyoutube.com^
