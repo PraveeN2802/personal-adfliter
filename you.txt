@@ -276,11 +276,10 @@ nsfwyoutube.com##pp
 ||youtubex.top^$3p
 youtubemp3donusturucu.net##+js(aeld, click, t(a))
 ||m.youtube.com/*/ad.js$script
-||mp3juices.cc^$csp=default-src 'self' 'unsafe-inline' *.dropbox.com *.dropbox-dns.com *.gstatic.com *.googleapis.com *.google.com ytpp3.com *.youtube.com
+||mp3juices.cc^$csp=default-src 'self' 'unsafe-inline' *.dropbox.com *.dropbox-dns.com *.gstatic.com *.googleapis.com .* ytpp3.com *.youtube.com
 ytsubme.com##+js(nowoif, youtube)
 ||gospeljingle.com^$csp=default-src 'unsafe-inline' 'self' data: *.ytimg.com *.facebook.com *.google.com *.gstatic.com *.youtube.com *.googleapis.com *.wp.com *.gospeljingle.com *.googletagmanager.com
 ||ads.youtube.com/|$xhr,3p,redirect-rule=noop.txt
-saint.to,sankakucomplex.com,santoinferninho.com,saradahentai.com,savelink.site,scallyguy.com,scat.gold,scatkings.com,scatnetwork.com,screenhumor.com,secondcomingofgluttony.com,see-xxx.com,seed69.com,sekaikomik.live,seksrura.net,seksualios.com,seneporno.com,seoul-station-druid.com,seriesyonkis.*,serverxfans.com,sesso-escort.com,severeporn.com,sex-babki.com,sex-pic.info,sex-torrent.net,sexbixbox.com,sexgay18.com,sexkbj.com,sexmutant.com,sexmv.com,sexoverdose.com,sexpornasian.com,sexpox.com,sexpuss.org,sexrura.com,sextor.org,sextubefun.com,sextubeset.com,sexvideos.host,sexvideos.host,sexy-games.*,sexy-parade.com,sexy-youtubers.com,sexyaporno.com,sexyasianteenspics.com,sexybabespictures.com,sexyebonyteen.com,sexyerotica.net,sexyfreepussy.com,sexyhive.com,sexyteengirlfriends.net,shelovesporn.com,shemalemovies.us,shlink.net,short.croclix.me,simply-hentai.com,sissytube.net,sitarchive.com,skinnyhq.com,sleazedepot.com,smotret-porno-onlain.com,solomax-levelnewbie.*,solomaxlevelnewbie.*,solopornoitaliani.xxx,somulhergostosa.com,sousou-no-frieren.*,spy-x-family.*,spycock.com,spyvoyeur.net,stileproject.com,str8ongay.com,stream-69.com,streamextreme.cc,streamhub.*,streamporn.cc,subdivx.com,submissive-wife.net,supremebabes.com,sweetgirl.org,sxyprn.*,szexvideok.hu##+js(acs, document.querySelectorAll, popMagic)
 ||youtube.com/embed/$frame,domain=bestcash2020.com
 ssyoutube.com##+js(nowoif)
 ||ads.youtube.com^
